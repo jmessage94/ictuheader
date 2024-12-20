@@ -3,6 +3,6 @@ Type: Package
 Title: Custom Header Add-In
 Version: 0.9
 Author: Jack Message
-Maintainer: jmessage
+Maintainer: Maintainer: Jack Message <j.message@imperial.ac.uk>
 Description: Adds a customizable header to R scripts interactively.
 Depends: shiny, rstudioapi
