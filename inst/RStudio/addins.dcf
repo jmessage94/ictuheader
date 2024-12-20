@@ -1,0 +1,4 @@
+Name: Insert Custom Header
+Description: Interactively insert a program header into the active script.
+Binding: insert_header_addin
+Interactive: true

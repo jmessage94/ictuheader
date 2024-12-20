@@ -1,0 +1,8 @@
+Package: YourPackageName
+Type: Package
+Title: Custom Header Add-In
+Version: 0.1
+Author: Your Name
+Maintainer: Your Name <your.email@example.com>
+Description: Adds a customizable header to R scripts interactively.
+Depends: shiny, rstudioapi
