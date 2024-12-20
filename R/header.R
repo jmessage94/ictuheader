@@ -11,7 +11,7 @@ insert_header_addin <- function() {
     titlePanel("Insert Header"),
     sidebarLayout(
       sidebarPanel(
-        textInput("study", "Study:", "Add your the study you are working in here"),
+        textInput("study", "Study:", placeholder = "Add your the study you are working in here"),
         textInput("purpose", "Purpose:", "Add your program's purpose here"),
         textInput("output", "Output:", "Add any files your program will produce, e.g. log files and rtfs"),
         textInput("author", "Author:", "Your Name"),
