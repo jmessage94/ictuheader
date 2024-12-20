@@ -1,9 +1,10 @@
-# Load required libraries
-library(shiny)
-library(rstudioapi)
 
 # Define the add-in function
 insert_header_addin <- function() {
+
+  # Load required libraries
+  library(shiny)
+  library(rstudioapi)
 
   # Shiny gadget UI
   ui <- fluidPage(
