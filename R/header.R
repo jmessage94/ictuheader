@@ -11,11 +11,11 @@ insert_header_addin <- function() {
     titlePanel("Insert Header"),
     sidebarLayout(
       sidebarPanel(
-        textInput("study", "Study:", placeholder = "Add your the study you are working in here"),
-        textInput("purpose", "Purpose:", "Add your program's purpose here"),
-        textInput("output", "Output:", "Add any files your program will produce, e.g. log files and rtfs"),
-        textInput("author", "Author:", "Your Name"),
-        dateInput("date", "Date:", Sys.Date()),
+        textInput("study", "Study:", placeholder = "ICTUSTUDYNAME"),
+        textInput("purpose", "Purpose:", placeholder = "Produce the table of demographics for DMEC report"),
+        textInput("output", "Output:", placeholder = "Add any files your program will produce, e.g. log files and rtfs"),
+        textInput("author", "Author:", placeholder = "Your Name"),
+        dateInput("date", "Date:", format(Sys.Date(), "%d-%b-%Y")),
         actionButton("insert", "Insert Header"),
         actionButton("cancel", "Cancel")
       ),
