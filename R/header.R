@@ -15,7 +15,7 @@ insert_header_addin <- function() {
         textInput("purpose", "Purpose:", placeholder = "Produce the table of demographics for DMEC report"),
         textInput("output", "Output:", placeholder = "Add any files your program will produce, e.g. log files and rtfs"),
         textInput("author", "Author:", placeholder = "Your Name"),
-        dateInput("date", "Date:", format(Sys.Date(), "%d-%b-%Y")),
+        textInput("date", "Date:", value = format(Sys.Date(), "%d-%b-%Y")),
         actionButton("insert", "Insert Header"),
         actionButton("cancel", "Cancel")
       ),
