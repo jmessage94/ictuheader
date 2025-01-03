@@ -1,7 +1,7 @@
 Package: ictuheader
 Type: Package
 Title: Custom Header Add-In
-Version: 0.10
+Version: 0.11
 Author: Jack Message
 Maintainer: Jack Message <j.message@imperial.ac.uk>
 Description: Adds a customizable header to R scripts interactively.

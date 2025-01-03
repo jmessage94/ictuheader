@@ -11,6 +11,7 @@ insert_header_addin <- function() {
     titlePanel("Insert Header"),
     sidebarLayout(
       sidebarPanel(
+        textInput("programname", "Program Name:", placeholder = "programname.R"),
         textInput("study", "Study:", placeholder = "ICTUSTUDYNAME"),
         textInput("purpose", "Purpose:", placeholder = "Produce the table of demographics for DMEC report"),
         textInput("output", "Output:", placeholder = "Add any files your program will produce, e.g. log files and rtfs"),
@@ -39,6 +40,7 @@ insert_header_addin <- function() {
         "#............ ||    o     \\\\__     o     ||     o      \\__/  ............\n",
         "#........................................................................\n",
         "#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#\n",
+        "# \n Program Name: ", input$programname, "\n",
         "# \n",
         "# Study: ", input$study, "\n",
         "# \n",
